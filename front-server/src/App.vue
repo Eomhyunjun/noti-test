@@ -11,8 +11,9 @@ import HelloWorld from './components/HelloWorld.vue'
       <HelloWorld msg="You did it!" />
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
+        <RouterLink to="/">static 알림</RouterLink>
+        <RouterLink to="/about">웹소켓</RouterLink>
+        <RouterLink to="/sse">SSE 방식</RouterLink>
       </nav>
     </div>
   </header>
